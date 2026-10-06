@@ -39,9 +39,9 @@ const roleMenu = (router: NextRouter, showMenu: boolean, setShowMenu: Dispatch<S
         ],
         SECTOR_HEAD: [
             {title: "Home", icon: TbHomeDot, fn: () => router.push(`/bus/sector-head`)},
+            {title: "Events", icon: TbHistory, fn: () => router.push(`/bus/sector-head/event`)},
             {title: "Manage Branch", icon: TbLayoutBottombarCollapseFilled, fn: () => router.push(`/bus/sector-head/groups`)},
             {title: "Manage Bus Head", icon: TbUsersGroup, fn:  () => router.push(`/bus/sector-head/accounts`)},
-            {title: "History", icon: TbHistory, fn:  ()=>{}},
             {title: "Role Selection", icon: TbArrowBackUp, fn: () => router.push(`/bus`)},
             {title: "Logout", icon: TbPower, fn: removeSession}
         ],
