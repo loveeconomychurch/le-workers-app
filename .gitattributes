@@ -1,2 +1,2 @@
-.env -diff
-logs/*.log -diff
+/.env binary
+/logs/*.log binary
